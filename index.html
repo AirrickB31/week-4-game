@@ -1,48 +1,66 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <title>WACK RAPPERS</title>
+</head>
+<body>
+    <container>
+        <row>
+            <div class = "col-md-6 title">
+                <h1>WACK RAPPERS BEING WACK</h1>
+            </div>
+        </row>
+        <row>
+            <div class = "col-md-6 directions h-50">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four WACK RAPPERS below. By clicking on a WACK RAPPERS you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each WACK RAPPER is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each WACK RAPPER.</p>
+            </div>
+        </row>
+        <row>
+            <div class="col-3 computerNumber panel-body">
 
-  <body>
-    <div class="container">
-        <!-- Where users chooses character -->
-        <div class = "row"> 
-            Your Character
-            <div class = "charSection col-md-12"></div>
-        </div>
+            </div>
+            <div class="col-2 score panel-body">
 
-        <!-- Enemies Section -->
-        <div class="row">
-            Enemies available to attack
-            <div class="enemiesSection col-md-12"></div>
-        </div>
+            </div>
+        </row>
+        <row>
+            <div class="col-md-1 pic">
+                <img class="sixnine wack" src="images/6ix9ine.png" alt="Normal Rick">
 
-         <div class="row">
-            <div class="fightSection col-md-4"></div>
-            <button class="attackBtn col-md-4">Attack</button>
-            <div class="defenderSection col-md-4"></div>
-        </div>
+            </div>
+            <div class="col-md-1 pic float">
+                <img class="pump wack" src="images/lilpump.png" alt="little rick">
 
+            </div>
+            <div class="col-md-1 pic">
+                <img class="limpBizkit wack" src="images/limp.png" alt="pickle rick">
 
+            </div>
+            <div class="col-md-1 pic">
+                <img class="KFed wack" src="images/kfed.png" alt="seal team rick">
 
+            </div>
+        </row>
+        <row>
+            <div class="col-md-4 bg-dark">
+                Your total score is:
+                <div class="col-md-4 h-50 yourNumber bg-dark">     
+                        SCORE!
+                    </div>
+            </div>
+        </row>
+    </container>
 
-     </div>  
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    
+    <script src = "javascript/game.js"></script>
+</body>
 </html>
