@@ -1,13 +1,48 @@
-.charSection{
-    width: 570px;
+body{
+    background-image: url("../images/wack.png");
+    
+}
+container{
+    color:white;
+}
+.directions{
+    margin-top: 40px;
+    background-color: black;
+    padding: 10px;
+}
+h1{
+    background-color: black;
+    padding: 15px;
+}
+.yournumber{
+    margin-top: 10px;
+    text-decoration-color: white;
+}
+.pump{
+    width: 150px;
     height: 150px;
-    margin: 10px 0 0 10px;
-    background-color: lightblue;
+}
+.limpBizkit{
+    width: 150px;
+    max-height: 150px;
+}
+.sixnine{
+    width: 150px;
+    max-height: 150px;
+}
+.KFed{
+    width: 150px;
+    max-height: 150px;
 }
 
-.enemiesSection{
-    width: 570px;
-    height: 150px;
-    margin: 10px 0 0 10px;
-    background-color: lightblue;
+.computerNumber{
+    background: black;
+}
+
+.score{
+    background: black;
+}
+.pic{
+    width: 23%;
+    display: inline-block;
 }
